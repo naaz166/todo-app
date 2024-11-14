@@ -15,6 +15,7 @@ export function NewTodoForm({ onSubmit }) {
   return (
     <form onSubmit={handleSubmit} className="new-item-form">
       <div className="form-row">
+        <h1>TODO APP</h1>
         <label htmlFor="item">New Item</label>
         <input
           value={newItem}
